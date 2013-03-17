@@ -1,7 +1,7 @@
 # Getting the maths stuff used for sqrt() and pi
 import math
 
-# Defining Pi (TODO: Replace with maths function Pi)
+# Defining Pi
 pi = math.pi
 
 # Getting input
@@ -35,10 +35,9 @@ if known_element == 'circumference' or known_element == 'c':
 if known_element == 'area' or known_element == 'a':
 	area = known_value
 	radius = math.sqrt(area) / math.sqrt(pi)
-	
 	diameter = radius * 2
 	circumference = pi * float(diameter)
-	
+
 # Printing results
 print "The diameter is %s" % (diameter)
 print "The circumference is %s" % (circumference)
